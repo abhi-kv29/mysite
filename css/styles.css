@@ -1,0 +1,310 @@
+body {
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  color: #ff7e67;
+  text-decoration: none;
+}
+
+.navbar-brand::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff7e67;
+  transition: width .3s;
+}
+
+.navbar-brand:hover::after {
+  width: 100%;
+}
+
+.nav-item {
+  padding-top: 1.5rem;
+  padding-right: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+iframe {
+  padding-top: 1.5rem;
+}
+
+.my-image {
+  padding: 7rem;
+}
+
+.tall {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #ff7e67;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff7e67;
+  transition: width .3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #797a7e;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  animation: fadeOut 9s;
+  animation: fadeIn 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3f3f44;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+  position: relative;
+  animation: fadeIn 9s;
+  animation: fadeOut 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.top-head {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.container-fluid {
+  list-style: none;
+  background-color: #000;
+  width: 100;
+  height: 50;
+  margin: 60px auto;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.container-fluid li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin: 30px auto;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  border: 1px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.htmlcss {
+  width: 80%;
+  animation: htmlcss 5s;
+  animation-iteration-count: infinite;
+}
+
+.ccpp {
+  width: 85%;
+  animation: ccpp 5s;
+  animation-iteration-count: infinite;
+}
+
+.java {
+  width: 60%;
+  animation: java 5s;
+  animation-iteration-count: infinite;
+}
+
+.python {
+  width: 55%;
+  animation: python 5s;
+  animation-iteration-count: infinite;
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 5s;
+  animation-iteration-count: infinite;
+}
+
+.dart {
+  width: 60%;
+  animation: dart 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes htmlcss {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes ccpp {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes dart {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+.contactMe {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.contact-button {
+  border: 1px solid #000;
+  background: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.icons-bottom {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.icon-press {
+  background-color: #fff;
+  border: transparent;
+  margin: 25px;
+  position: relative;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.icon-press:hover {
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.copyright {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}

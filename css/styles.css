@@ -162,25 +162,25 @@ iframe {
 }
 
 .htmlcss {
-  width: 80%;
+  width: 70%;
   animation: htmlcss 5s;
   animation-iteration-count: infinite;
 }
 
 .ccpp {
-  width: 85%;
+  width: 70%;
   animation: ccpp 5s;
   animation-iteration-count: infinite;
 }
 
 .java {
-  width: 60%;
+  width: 50%;
   animation: java 5s;
   animation-iteration-count: infinite;
 }
 
-.python {
-  width: 55%;
+.backend {
+  width: 60%;
   animation: python 5s;
   animation-iteration-count: infinite;
 }
@@ -203,7 +203,7 @@ iframe {
   }
 
   100% {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -213,7 +213,7 @@ iframe {
   }
 
   100% {
-    width: 85%;
+    width: 70%;
   }
 }
 
@@ -223,17 +223,17 @@ iframe {
   }
 
   100% {
-    width: 60%;
+    width: 50%;
   }
 }
 
-@keyframes python {
+@keyframes backend {
   0% {
     width: 0;
   }
 
   100% {
-    width: 55%;
+    width: 60%;
   }
 }
 

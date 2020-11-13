@@ -164,37 +164,32 @@ iframe {
 .htmlcss {
   width: 70%;
   animation: htmlcss 5s;
-  animation-iteration-count: infinite;
 }
 
 .ccpp {
   width: 70%;
   animation: ccpp 5s;
-  animation-iteration-count: infinite;
 }
 
 .java {
   width: 50%;
   animation: java 5s;
-  animation-iteration-count: infinite;
 }
 
 .backend {
   width: 60%;
-  animation: python 5s;
-  animation-iteration-count: infinite;
+  animation: backend 5s;
+ 
 }
 
 .javascript {
   width: 70%;
   animation: javascript 5s;
-  animation-iteration-count: infinite;
 }
 
 .dart {
   width: 60%;
   animation: dart 5s;
-  animation-iteration-count: infinite;
 }
 
 @keyframes htmlcss {

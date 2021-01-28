@@ -179,7 +179,7 @@ iframe {
 .backend {
   width: 60%;
   animation: backend 5s;
- 
+
 }
 
 .javascript {
@@ -302,4 +302,19 @@ iframe {
 
 a {
   color: inherit;
+}
+
+.projectLink{
+  color: blue;
+}
+
+.card{
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 6rem;
+}
+
+.projectPage{
+  margin-top: 3rem;
 }

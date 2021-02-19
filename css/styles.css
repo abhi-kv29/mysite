@@ -337,10 +337,11 @@ a {
 }
 
 .download-link{
-  margin-left: 3rem;
+  display: inline-block;
+  text-align: center;
 }
 
 .mail-link{
-  margin-right: 3rem;
+  text-align: center;
   display: inline-block;
 }

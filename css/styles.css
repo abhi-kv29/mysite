@@ -296,6 +296,7 @@ iframe {
   padding-bottom: 3rem;
   background-color: #fff;
   text-align: center;
+  position: static;
 }
 
 .icon-press {
@@ -326,10 +327,12 @@ a {
 }
 
 .card{
-  margin-top: 4rem;
+  border-radius: 3rem;
+  margin-top: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
 .projectPage{

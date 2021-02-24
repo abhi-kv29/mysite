@@ -16,7 +16,7 @@ html {
 
 .navbar-brand {
   display: inline-block;
-  color: #ff7e67;
+  color: linear-gradient(to right, #fc354c, #0abfbc);
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ html {
   display: block;
   width: 0;
   height: 2px;
-  background: #ff7e67;
+  background: linear-gradient(to right, #fc354c, #0abfbc);
   transition: width .3s;
 }
 
@@ -41,12 +41,19 @@ html {
   font-size: 1rem;
 }
 
-iframe {
-  padding-top: 1.5rem;
+.my-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  animation: slideUp 2.4s ease;
 }
 
-.my-image {
-  padding: 7rem;
+@keyframes slideUp {
+  0%{
+    transform: translateY(150px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .tall {
@@ -58,7 +65,7 @@ iframe {
 
 .nav-link {
   display: inline-block;
-  color: #ff7e67;
+  color: linear-gradient(to right, #fc354c, #0abfbc);
   text-decoration: none;
 }
 
@@ -67,7 +74,7 @@ iframe {
   display: block;
   width: 0;
   height: 2px;
-  background: #ff7e67;
+  background: linear-gradient(to right, #fc354c, #0abfbc);
   transition: width .3s;
 }
 
@@ -85,19 +92,7 @@ iframe {
   margin-right: auto;
   text-align: center;
   position: relative;
-  animation: fadeOut 9s;
-  animation: fadeIn 9s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  animation: slideUp 2.4s ease;
 }
 
 .content {
@@ -109,19 +104,7 @@ iframe {
   margin-right: auto;
   padding-bottom: 5rem;
   position: relative;
-  animation: fadeIn 9s;
-  animation: fadeOut 9s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
+  animation: slideUp 2.4s ease;
 }
 
 .top-head {
@@ -299,21 +282,65 @@ iframe {
   position: static;
 }
 
-.icon-press {
+.icon-fb {
   background-color: #fff;
   border: transparent;
   margin: 25px;
   position: relative;
-  font-size: 40px;
+  font-size: 35px;
   transition: 0.5s;
 }
 
-.icon-press:hover {
+.icon-fb:hover {
   color: #fff;
-  background-color: #000;
+  background-color: #3A5795;
   border-radius: 50%;
 }
 
+.icon-git {
+  background-color: #fff;
+  border: transparent;
+  margin: 25px;
+  position: relative;
+  font-size: 35px;
+  transition: 0.5s;
+}
+
+.icon-git:hover {
+  color: #fff;
+  background-color: #888888;
+  border-radius: 50%;
+}
+
+.icon-inst {
+  background-color: #fff;
+  border: transparent;
+  margin: 25px;
+  position: relative;
+  font-size: 35px;
+  transition: 0.5s;
+}
+
+.icon-inst:hover {
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 50%;
+}
+
+.icon-twt {
+  background-color: #fff;
+  border: transparent;
+  margin: 25px;
+  position: relative;
+  font-size: 35px;
+  transition: 0.5s;
+}
+
+.icon-twt:hover {
+  color: #fff;
+  background-color: #00A2F3;
+  border-radius: 50%;
+}
 .copyright {
   text-align: center;
 }
@@ -333,6 +360,7 @@ a {
   margin-right: 1rem;
   margin-bottom: 2rem;
   position: relative;
+  box-shadow: 4px 4px 4px 4px #888888;
 }
 
 .projectPage{

@@ -341,6 +341,23 @@ html {
   background-color: #00A2F3;
   border-radius: 50%;
 }
+
+.icon-lkdn {
+  background-color: #fff;
+  border: transparent;
+  margin: 25px;
+  position: relative;
+  font-size: 35px;
+  transition: 0.5s;
+}
+
+.icon-lkdn:hover {
+  color: #fff;
+  background-color: #0A66C2;
+  border-radius: 50%;
+}
+
+
 .copyright {
   text-align: center;
 }

@@ -327,21 +327,6 @@ html {
   border-radius: 50%;
 }
 
-.icon-twt {
-  background-color: #fff;
-  border: transparent;
-  margin: 25px;
-  position: relative;
-  font-size: 35px;
-  transition: 0.5s;
-}
-
-.icon-twt:hover {
-  color: #fff;
-  background-color: #00A2F3;
-  border-radius: 50%;
-}
-
 .icon-lkdn {
   background-color: #fff;
   border: transparent;

@@ -327,6 +327,8 @@ html {
   border-radius: 50%;
 }
 
+
+
 .icon-lkdn {
   background-color: #fff;
   border: transparent;
@@ -344,6 +346,7 @@ html {
 
 
 .copyright {
+  margin-bottom: 3px;
   text-align: center;
 }
 
@@ -353,15 +356,17 @@ a {
 
 .projectLink{
   color: blue;
+  text-decoration: none;
+}
+
+.projectLink:hover{
+  text-decoration: none;
 }
 
 .card{
-  border-radius: 3rem;
-  margin-top: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 2rem;
-  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
   box-shadow: 4px 4px 4px 4px #888888;
 }
 
@@ -377,4 +382,8 @@ a {
 .mail-link{
   text-align: center;
   display: inline-block;
+}
+
+.project-column {
+  margin: 2rem;;
 }
